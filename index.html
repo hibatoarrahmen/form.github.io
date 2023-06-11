@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <section>
+      <div class="form_box">
+        <div class="title">
+    <h1 id="title">Registration Form</h1></div>
+    <div class="desc"
+    <p id="description">Please fill out this form with the required information</p></div>
+    <form id="survey-form">
+
+        <div class="input">
+<ion-icon id="name " name="person-outline"></ion-icon>
+        <label for="name" id="name-label">Enter Your  Name: <input id="name" type="text" required Placeholder="name"/></label>
+</div>
+
+  <div class="input">
+<ion-icon  name="mail-outline"></ion-icon>
+<label for="email" id="email-label">Enter Your  Email: <input id="email" type="email" required Placeholder="email"/></label>
+  </div >
+
+  <div class="input">
+    <ion-icon name="call-outline"></ion-icon>
+
+<label for="number" id="number-label">Enter Your  Age :<input id="number" type="number" min="00000000" max="99999999"required Placeholder="number"/></label>
+ </div>
+
+
+
+<div class="select">
+<label for="dropdown">select </label>
+<select id="dropdown">
+<option value="1">hybrid</option>
+  <option value="2">remote</option>
+  </select>
+  </div>
+
+  <div class="radio">
+    <ion-icon name="man-outline"></ion-icon>
+<input id="gender" type="radio" name="gender" value="Male" >
+<label for="gender">Male</label>
+</div>
+
+
+<div class="radio">
+  <ion-icon name="woman-outline"></ion-icon>
+<input id="gender" type="radio" name="gender" value="Female" >
+<label for="gender">Female</label>
+</div>
+
+
+<div class="checkbox">
+<input id="option 1" type="checkbox" name="gender" value="option 1" >
+<label for="option 1">Graduate</label>
+<input id="option 2" type="checkbox" name="gender" value="option 2" >
+<label for="option 2">Student </label>
+</div>
+<div class="text">
+<ion-icon name="clipboard-outline"></ion-icon>
+
+<label for="bio">Provide a bio:
+          <textarea id="bio" name="bio" rows="5" cols="30" placeholder="I like coding on the beach..."></textarea>
+          
+
+        </label>
+        </div>
+        <div >
+        <input  id="submit" type="submit" value="Submit" class="bottom" />
+        </div>
+      </form>
+     </div>
+   </section>
+      <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    </body>
+     
+    </html>

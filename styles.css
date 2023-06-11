@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+    
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 110vh;
+    width: 100%;
+  background: url('https://th.bing.com/th/id/OIP.CXSqCBP6mOAehAace2FpDQHaEo?pid=ImgDet&rs=1')no-repeat;
+  background-position: center;
+    background-size: cover;
+}
+
+.form_box{
+    position: relative;
+    width: 400px;
+    height: 550px;
+    bbackground: transparent;
+    border: 2px solid rgba(255,255,255,0.5);
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
+    
+    justify-content: center;
+    align-items: center;
+
+}
+.input{
+    position: relative;
+    margin: 70px 0;
+    width: 400px;
+   
+    border-bottom: 2px solid #fff;
+}
+
+.input label{
+    position: absolute;
+    top: 50%;
+color: #fff;
+    left: 0px;
+   display: block;
+     transform: translateY(-100%);
+}
+
+
+.input input {
+    display: block;
+float: left;
+    width: 90%;
+    height: 30px;
+    border: none;
+    outline: none;
+    padding:0 110px 0 2px;
+    background: transparent;
+    transform: translateY(9%);
+    font-size: 1em;
+}
+
+.input ion-icon{
+    position: absolute;
+    right: 9px;
+    color: #fff;
+    font-size: 1.8em;
+    top: -30px;
+}
+h1{
+    font-size: 2em;
+    color: #fff;
+    text-align: center;
+}
+.select{
+    color: #fff;
+    width: 50%;
+    transform: translateY(-300%);
+}
+.radio{
+    color: #fff;
+    width: 60%;
+    transform: translateY(-200%);
+    font-size: 0.98em;
+}
+.radio ion-icon{
+    
+    right: 2px;
+    color: #fff;
+    font-size: 1.5em;
+}
+.checkbox{
+    color: #fff;
+    width: 50%;
+    float:right;
+    transform: translateY(-560%);
+}
+
+.text{
+color: #fff;
+    position: relative;
+    margin: 20px 15;
+    width: 400px;
+ transform: translateY(-40%);
+    
+}
+.text textarea{
+     background:#fff;
+}
+.text ion-icon{
+    
+    right: 3px;
+    color: #fff;
+    font-size: 1.6em;
+}
+.bottom{
+    width: 100%;
+    height: 40px;
+    border-radius: 40px;
+    background: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+     transform: translateY(-90%);
+}
